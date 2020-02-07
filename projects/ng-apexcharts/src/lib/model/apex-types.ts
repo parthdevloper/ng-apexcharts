@@ -440,7 +440,7 @@ export interface ApexPlotOptions {
     offsetX?: number;
     offsetY?: number;
     polygons?: {
-      strokeColor?: string;
+      strokeColors?: string | string[];
       connectorColors?: string | string[];
       fill?: {
         colors?: string[];
